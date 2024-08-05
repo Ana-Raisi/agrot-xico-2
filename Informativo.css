@@ -179,10 +179,60 @@ p {
     background: #0088cc;
 }
 
-/* Estilo do rodapé */
+
 footer {
     padding: 1rem;
     background: #333;
     color: #fff;
     text-align: center;
+}
+
+
+.home{
+  background-color:#0000 ;
+  background: sizergb(248, 248, 248); ;
+  background-position: #000 ;
+  color:rgb(0, 0, 0) ;
+  text-align: center;
+  padding: auto;
+  border-radius: 8px;
+  max-width: 100%;
+  padding: 1opx 20 px;
+  border-radius: 8px;
+}
+
+.capa.text{
+  max-width: 60px;
+  margin: 0%;
+ 
+}
+
+
+.capa-text h2{
+  font-family: "kalnia Glaze" , serif ;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  font-variation-settings: "with" 100;
+}
+
+/* Adiciona a imagem de fundo apenas para a página com a classe .background-capa */
+.background-capa {
+  background-image: url('capa.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Adiciona estilos para a frase em destaque */
+.capa h5 {
+  font-size: 2rem; /* Tamanho da fonte aumentado */
+  font-weight: bold; /* Fonte em negrito */
+  color: #4CAF50; /* Cor do texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+  background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  max-width: 80%; /* Limita a largura máxima */
+  margin: 20px auto; /* Margem automática para centralizar */
 }

@@ -90,30 +90,3 @@ p {
 }
 
 
-
-#home{
-    background-color:#0000 ;
-    background: sizergb(248, 248, 248); ;
-    background-position: #000 ;
-    color:white ;
-    text-align: center;
-    padding: auto;
-    border-radius: 8px;
-    max-width: 80%;
-    padding: 1opx 20 px;
-    border-radius: 8px;
-}
-
-.capa.text{
-    max-width: 60px;
-    margin: 0%;
-}
-
-.capa-text h2{
-    font-family: "kalnia Glaze" , serif ;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: italic;
-    font-variation-settings: "with" 100;
-}
-
